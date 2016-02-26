@@ -15,14 +15,17 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from oneplus2 device
-$(call inherit-product, device/oneplus/oneplus2/device.mk)
+$(call inherit-product, device/oneplus/oneplus2/device_oneplus2.mk)
 
-PRODUCT_NAME := cm_oneplus2
+PRODUCT_NAME := OnePlus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := oneplus2
 PRODUCT_BRAND := OnePlus
+TARGET_VENDOR := Oneplus
+TARGET_VENDOR_PRODUCT_NAME := OnePlus 2
+TARGET_VEDNOR_DEVICE_NAME := A2003
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A2003 PRODUCT_NAME=OnePlus 2

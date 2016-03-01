@@ -20,9 +20,6 @@
 # definition file).
 #
 
-# Inherit from oppo-common
-#-include device/oppo/common/BoardConfigCommon.mk
-
 # Inherit CAF msm8994 Board Config
 -include device/qcom/msm8994/BoardConfig.mk
 
@@ -78,7 +75,7 @@ BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/oneplus/oneplus2/charger/images
 EXTENDED_FONT_FOOTPRINT := true
 
 # Include path
-#TARGET_SPECIFIC_HEADER_PATH := device/oneplus/oneplus2/include
+TARGET_SPECIFIC_HEADER_PATH := device/oneplus/oneplus2/include
 
 # Init
 TARGET_UNIFIED_DEVICE := true
@@ -105,9 +102,6 @@ BOARD_USES_QC_TIME_SERVICES := true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
-
-# CNE and DPM
-#BOARD_USES_QCNE := true
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)

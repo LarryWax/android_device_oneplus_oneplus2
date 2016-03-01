@@ -15,11 +15,11 @@ persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
-# Start in global mode
-#ifndef VENDOR_EDIT
-#dhj@PM, 2015/03/24, del this prop, which will be set in self-init
-ro.telephony.default_network=10
-#endif /* VENDOR_EDIT */
+ro.telephony.default_network=9
+ro.ril.gprsclass=10
+ro.ril.hsxpa=1
+persist.radio.multisim.config=dsds
+
 
 debug.sf.hw=1
 debug.egl.hw=1

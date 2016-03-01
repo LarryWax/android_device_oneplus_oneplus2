@@ -159,7 +159,7 @@ LOCAL_SRC_FILES := proprietary/app/a4wpservice/a4wpservice.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -171,7 +171,7 @@ LOCAL_SRC_FILES := proprietary/app/com.quicinc.wbcserviceapp/com.quicinc.wbcserv
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -183,7 +183,7 @@ LOCAL_SRC_FILES := proprietary/app/fastdormancy/fastdormancy.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -195,7 +195,7 @@ LOCAL_SRC_FILES := proprietary/app/FingerprintServiceExtension/FingerprintServic
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -207,7 +207,7 @@ LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -219,7 +219,7 @@ LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -231,7 +231,7 @@ LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
@@ -242,7 +242,7 @@ LOCAL_SRC_FILES := proprietary/app/WfdService/WfdService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -456,7 +456,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/priv-app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/priv-app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -468,7 +468,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.locat
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/priv-app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/priv-app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -480,7 +480,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/priv-app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/priv-app/
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
@@ -492,7 +492,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/priv-app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/priv-app/
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
@@ -503,7 +503,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/QtiTetherService/QtiTetherService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/system/priv-app/
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/priv-app/
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
@@ -514,6 +514,7 @@ LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/vendor/app/
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
@@ -524,6 +525,7 @@ LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/vendor/app/
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
@@ -534,6 +536,7 @@ LOCAL_SRC_FILES := proprietary/vendor/app/SecProtect/SecProtect.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/vendor/app/
 LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
